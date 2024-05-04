@@ -1,3 +1,12 @@
+local pserver = false
+local toggles = {
+    perm = true,
+    antipunish = true,
+    antimesh = true,
+    antiname = true,
+    joinnoti = false
+}
+
 local Connections = {}
 
 local function isParent(Object)
